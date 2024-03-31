@@ -1,5 +1,5 @@
 <?php
-class contoh 1 extends CI_Controller
+class contoh1 extends CI_Controller
 {
     public function index()
  {
