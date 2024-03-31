@@ -8,5 +8,5 @@ class contoh1 extends CI_Controller
         Saya tinggal di Sepakat 1
         olahraga yang saya sukai adalah
         renang";
-}
+ }
 }
