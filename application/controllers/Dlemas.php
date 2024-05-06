@@ -5,7 +5,7 @@
 { 
         $this->load->view('view_form_dlemas'); 
 } 
-    public function cetak() 
+    Public function cetak() 
 { 
     $data = 
 

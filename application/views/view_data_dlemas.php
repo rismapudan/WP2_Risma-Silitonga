@@ -1,7 +1,7 @@
 <html> 
 <head> 
 
-    <title>Tampil Data Dlemas</title> 
+    <title>Tampil Data Siswa</title> 
 </head> 
 
 <body> 
@@ -9,7 +9,7 @@
         <table> 
             <tr> 
                 <th colspan="3"> 
-                    Tampil Data Siswa 
+                    Tampil Data Siswa
                 </th> 
             </tr> 
             <tr> 

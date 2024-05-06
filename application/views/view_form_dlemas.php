@@ -55,7 +55,7 @@
             </tr> 
             <tr> 
 
-            <th>Tanggal</th> 
+            <th>Tanggal Lahir</th> 
                 <td>:</td> 
                 <td> 
                     <input type="text" name="tanggal" id="tanggal" placeholder="">
