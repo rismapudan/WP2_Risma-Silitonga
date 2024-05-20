@@ -14,7 +14,7 @@
                             </div> 
                                <div class="col-auto"> 
                                   <a href="<?= base_url('user/anggota'); ?>"><i class="fas fa-users 
-                                  fa-3x text-warning"></i></a> 
+                                   fa-3x text-warning"></i></a> 
                                   </div> 
                                 </div> 
                             </div> 
