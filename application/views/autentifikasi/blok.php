@@ -44,8 +44,8 @@
             <a href="<?= base_url('user'); ?>">&larr; Kembali ke Dashboard</a>
         </div>
 
-    </div>
-    <!-- /.container-fluid -->
+     </div>
+     <!-- /.container-fluid -->
 
 </div>
 

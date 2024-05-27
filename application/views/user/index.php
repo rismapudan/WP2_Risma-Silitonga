@@ -18,8 +18,8 @@ $user['image']; ?>" class="card-img" alt="...">
 
 ?></h5>
 
-                <p class="card-text"><?= $user['email']; ?></p>
-                <p class="card-text"><small class="text-
+                 <p class="card-text"><?= $user['email']; ?></p>
+                 <p class="card-text"><small class="text-
                 muted">Jadi member sejak: <br><b><?= date('d F Y', 
                 $user['tanggal_input']); ?></b></small></p>
                                 </div>
