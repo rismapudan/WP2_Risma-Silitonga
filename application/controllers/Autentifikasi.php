@@ -5,7 +5,7 @@ class Autentifikasi extends CI_Controller
  {
     //jika statusnya sudah login, maka tidak bisa mengakses halaman login alias dikembalikan ke tampilan user
     if($this->session->userdata('email')){
-        redirect('user');
+        redirect('admin');
     }
 
     $this->form_validation->set_rules('email', 'Alamat Email',
@@ -75,21 +75,14 @@ class Autentifikasi extends CI_Controller
         }
     }
 
-    public function blok() 
-    { 
-        $this->load->view('autentifikasi/blok'); 
-    }
-
-    public function gagal() { 
-        
-        $this->load->view('autentifikasi/gagal'); 
-    }
+    public function blok() { $this->load->view('autentifikasi/blok'); }
+    public function gagal() { $this->load->view('autentifikasi/gagal'); }
 
     public function registrasi()
     {
         if ($this->session->userdata('email')) { redirect('user'); }
 
-         //membuat rule untuk inputan nama agar tidak boleh kosong
+        //membuat rule untuk inputan nama agar tidak boleh kosong
         //dengan membuat pesan error dengan
         //bahasa sendiri yaitu 'Nama Belum diisi'
         $this->form_validation->set_rules(
