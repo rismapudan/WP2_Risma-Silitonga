@@ -59,7 +59,7 @@ class User extends CI_Controller
             //jika ada gambar yang akan diupload
             $upload_image = $_FILES['image']['name'];
 
-             //Cek kalau image exist
+            //Cek kalau image exist
             if ($upload_image) 
             {
                 //Eksekusi script
